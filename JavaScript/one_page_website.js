@@ -3,7 +3,7 @@ function openModal() {
 }
 
 function closeModal() {
-    document.getElementById("myModal").style.alignContent = "none";
+    document.getElementById("myModal").style.display = "none";
 }
 
 var slideIndex = 1;
