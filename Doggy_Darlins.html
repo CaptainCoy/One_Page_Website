@@ -4,9 +4,9 @@
         <meta charset='utf-8'>
         <link rel="icon" href="images/favicon-16x16.png" type="image/png" sizes="16x16">
         <title>Doggy|Darlins</title>
-        <link rel='stylesheet' href='./css/shared_2.css'>
-        <link rel='stylesheet' href='./css/animations_2.css'>
-        <script src="one_page_website.js" defer></script>
+        <link rel='stylesheet' href='./CSS/shared_2.css'>
+        <link rel='stylesheet' href='./CSS/Animations_2.css'>
+        <script src="./JavaScript/one_page_website.js" defer></script>
     </head>
     <body>
 
@@ -180,6 +180,15 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="row">
+            <div class="column">
+              <button onclick="openModal();currentSlide(1)" class="hover-shadow"> click to show lightbox</button>
+            </div> 
+        </div>
                     <!-- End Photo-Container 12 -->
                     <div id="myModal" class="modal">
                         <span class="close cursor" onclick="closeModal()">&times;</span>
@@ -276,11 +285,9 @@
                             <div class="column">
                                 <img class="demo cursor" src="images/DoggyDarlins_12.jpg" style="width:100%" onclick="currentSlide(12)" alt="Phantom Ladies">                                                                    
                             </div>
-.                        </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
+              
         <!-- End Gallery -->
 
         <!-- RSVP -->
